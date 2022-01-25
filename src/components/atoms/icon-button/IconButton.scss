@@ -1,0 +1,12 @@
+.icon-button {
+  border: none;
+  background-color: transparent;
+  border-radius: 100%;
+  padding: 5px 6px;
+  cursor: pointer;
+  align-self: start;
+
+  &:hover {
+    background-color: $defaultActive;
+  }
+}

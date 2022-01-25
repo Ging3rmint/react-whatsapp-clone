@@ -2,8 +2,10 @@
   display: flex;
 
   > * {
+    width: 65%;
+
     &:first-of-type {
-      width: 30%;
+      width: 35%;
     }
   }
 }

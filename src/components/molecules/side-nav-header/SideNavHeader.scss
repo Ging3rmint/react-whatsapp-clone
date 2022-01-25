@@ -1,0 +1,12 @@
+.side-nav-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 10px;
+  background-color: #f0ecec;
+
+  &__buttons {
+    > * {
+      margin-left: 10px;
+    }
+  }
+}

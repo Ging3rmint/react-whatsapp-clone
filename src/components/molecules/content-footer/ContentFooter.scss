@@ -1,0 +1,18 @@
+.content-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  background-color: #f6f6f6;
+  padding: 10px;
+
+  input {
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    height: 30px;
+    padding: 5px 10px;
+    width: 80%;
+  }
+}

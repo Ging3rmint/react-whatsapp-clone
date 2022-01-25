@@ -1,0 +1,23 @@
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background-color: #f0ecec;
+  padding: 0 10px;
+
+  .chat-item {
+    &:hover {
+      background-color: transparent;
+    }
+
+    &__right {
+      border-bottom: none;
+      padding: 5px 12px 5px 0;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+  }
+}

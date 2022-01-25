@@ -1,11 +1,20 @@
 //import styles here
 @import "variables.scss";
+
 //atom
 @import "../components/atoms/circle-profile-img/CircleProfileImg.scss";
+@import "../components/atoms/icon-button/IconButton.scss";
+
 //molecule
 @import "../components/molecules/chat-item/ChatItem.scss";
+@import "../components/molecules/side-nav-search/SideNavSearch.scss";
+@import "../components/molecules/side-nav-header/SideNavHeader.scss";
+@import "../components/molecules/content-header/ContentHeader.scss";
+@import "../components/molecules/content-footer/ContentFooter.scss";
+
 //organisms
 @import "../components/organisms/side-nav/SideNav.scss";
+@import "../components/organisms/dashboard-content/DashboardContent.scss";
 
 //screens
 @import "../screens/dashboard/Dashboard.scss";

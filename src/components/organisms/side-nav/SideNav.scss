@@ -1,5 +1,13 @@
 .side-nav {
   height: 100vh;
-  overflow-y: auto;
-  background-color: #e5ddd5;
+  // background-color: #e5ddd5;
+
+  &__scrollable {
+    height: calc(100% - 90px);
+    overflow-y: auto;
+
+    .chat-item {
+      padding: 0 10px;
+    }
+  }
 }
