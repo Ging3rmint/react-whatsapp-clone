@@ -15,6 +15,7 @@ const ContentHeader = ({ imageUrl, title, description }) => {
         <IconButton
           icon='search'
           size={18}
+          color='#444'
           onPress={() => {
             console.log("click");
           }}
@@ -22,6 +23,7 @@ const ContentHeader = ({ imageUrl, title, description }) => {
         <IconButton
           icon='dots-horizontal-triple'
           size={18}
+          color='#444'
           onPress={() => {
             console.log("click");
           }}

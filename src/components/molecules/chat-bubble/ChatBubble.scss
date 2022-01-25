@@ -1,0 +1,51 @@
+.chat-bubble {
+  margin: 10px 15px;
+
+  &__wrapper {
+    display: inline-block;
+    background-color: white;
+    padding: 4px 6px;
+    border-radius: 3px;
+    min-width: 100px;
+    position: relative;
+
+    &:before {
+      content: "";
+      width: 13px;
+      height: 12px;
+      position: absolute;
+      border-radius: 2px;
+      left: -10px;
+      top: 0;
+      background-color: inherit;
+      clip-path: polygon(0 0, 100% 100%, 100% 0);
+    }
+
+    &--header {
+      button {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        font-size: 13px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    &--content {
+      font-size: 12px;
+
+      p {
+        margin: 3px 0;
+      }
+
+      span {
+        display: block;
+        font-size: 10px;
+        text-align: right;
+      }
+    }
+  }
+}

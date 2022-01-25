@@ -8,7 +8,7 @@ const SideNav = (props) => {
   return (
     <div className='side-nav'>
       <SideNavHeader imageUrl='/IMG_2654.jpg' />
-      <SideNavSearch placeholder='Search a chat or friend ID' />
+      <SideNavSearch placeholder='Search or start a new chat' />
       <div className='side-nav__scrollable'>
         <ChatItem
           imageUrl='/IMG_2654.jpg'

@@ -11,6 +11,7 @@ const SideNavHeader = ({ imageUrl }) => {
         <IconButton
           icon='message'
           size={18}
+          color='#444'
           onPress={() => {
             console.log("click");
           }}
@@ -18,6 +19,7 @@ const SideNavHeader = ({ imageUrl }) => {
         <IconButton
           icon='dots-horizontal-triple'
           size={18}
+          color='#444'
           onPress={() => {
             console.log("click");
           }}
