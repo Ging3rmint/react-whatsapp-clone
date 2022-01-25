@@ -1,0 +1,49 @@
+.chat-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  //   padding: 10px 13px;
+  padding: 0 10px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $defaultActive;
+  }
+
+  &__left {
+    // width: 20%;
+    text-align: center;
+    padding-right: 12px;
+  }
+
+  &__right {
+    width: 80%;
+    text-align: left;
+    padding: 10px 12px 10px 0;
+    border-bottom: 1px solid $border;
+
+    &--header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      > h2 {
+        margin: 0;
+        font-size: 14px;
+      }
+
+      > span {
+        font-size: 11px;
+      }
+    }
+
+    > p {
+      font-size: 12px;
+      margin: 0;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 100%;
+    }
+  }
+}

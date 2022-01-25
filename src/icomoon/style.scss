@@ -1,0 +1,75 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?88nblg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?88nblg#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?88nblg') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?88nblg') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?88nblg##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-message {
+  &:before {
+    content: $icon-message; 
+  }
+}
+.icon-dots-horizontal-triple {
+  &:before {
+    content: $icon-dots-horizontal-triple; 
+  }
+}
+.icon-search {
+  &:before {
+    content: $icon-search; 
+  }
+}
+.icon-mic {
+  &:before {
+    content: $icon-mic; 
+  }
+}
+.icon-attachment {
+  &:before {
+    content: $icon-attachment; 
+  }
+}
+.icon-hipster {
+  &:before {
+    content: $icon-hipster; 
+  }
+}
+.icon-cross {
+  &:before {
+    content: $icon-cross; 
+  }
+}
+.icon-arrow-right2 {
+  &:before {
+    content: $icon-arrow-right2; 
+  }
+}
+.icon-arrow-left2 {
+  &:before {
+    content: $icon-arrow-left2; 
+  }
+}
+

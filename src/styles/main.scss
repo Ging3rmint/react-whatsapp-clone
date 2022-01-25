@@ -1,0 +1,39 @@
+//import styles here
+@import "variables.scss";
+//atom
+@import "../components/atoms/circle-profile-img/CircleProfileImg.scss";
+//molecule
+@import "../components/molecules/chat-item/ChatItem.scss";
+//organisms
+@import "../components/organisms/side-nav/SideNav.scss";
+
+//screens
+@import "../screens/dashboard/Dashboard.scss";
+@import "../screens/login/Login.scss";
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1em;
+  // background: $grey;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

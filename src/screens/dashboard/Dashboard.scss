@@ -1,0 +1,9 @@
+.dashboard {
+  display: flex;
+
+  > * {
+    &:first-of-type {
+      width: 30%;
+    }
+  }
+}
