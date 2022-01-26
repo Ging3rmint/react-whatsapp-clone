@@ -1,11 +1,12 @@
 .dashboard {
   display: flex;
+  position: relative;
 
-  > * {
+  .dashboard-content {
     width: 65%;
+  }
 
-    &:first-of-type {
-      width: 35%;
-    }
+  .side-nav {
+    width: 35%;
   }
 }

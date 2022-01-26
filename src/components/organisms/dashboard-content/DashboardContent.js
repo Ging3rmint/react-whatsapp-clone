@@ -11,18 +11,26 @@ const DashboardContent = () => {
     backgroundSize: "cover",
   };
 
+  const ChatRoom = () => {
+    return (
+      <>
+        <ContentHeader
+          imageUrl='/IMG_2654.jpg'
+          title='Sample Chat Item &#128513;'
+          description='Tom, Jerry, You'
+        />
+        <div className='dashboard-content__scrollable' style={contentStyle}>
+          <ChatBubble userName='Tom' text='Hello!' timeStamp='8.33pm' />
+          <ChatBubble userName='Jerry' text='Yo~' timeStamp='8.38pm' />
+        </div>
+        <ContentFooter />
+      </>
+    );
+  };
+
   return (
     <div className='dashboard-content'>
-      <ContentHeader
-        imageUrl='/IMG_2654.jpg'
-        title='Sample Chat Item &#128513;'
-        description='Tom, Jerry, You'
-      />
-      <div className='dashboard-content__scrollable' style={contentStyle}>
-        <ChatBubble userName='Tom' text='Hello!' timeStamp='8.33pm' />
-        <ChatBubble userName='Jerry' text='Yo~' timeStamp='8.38pm' />
-      </div>
-      <ContentFooter />
+      <ChatRoom />
     </div>
   );
 };

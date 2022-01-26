@@ -3,27 +3,29 @@ import React from "react";
 import CircleProfileImg from "../../atoms/circle-profile-img/CircleProfileImg";
 import IconButton from "../../atoms/icon-button/IconButton";
 
-const SideNavHeader = ({ imageUrl }) => {
+const SideNavHeader = ({ imageUrl, onProfileClick, onContactClick }) => {
   return (
     <div className='side-nav-header'>
-      <CircleProfileImg imageUrl={imageUrl} size={30} />
+      <CircleProfileImg
+        imageUrl={imageUrl}
+        size={30}
+        onPress={onProfileClick}
+      />
       <div className='side-nav-header__buttons'>
         <IconButton
-          icon='message'
+          icon='profile'
           size={18}
           color='#444'
-          onPress={() => {
-            console.log("click");
-          }}
+          onPress={onContactClick}
         />
-        <IconButton
+        {/* <IconButton
           icon='dots-horizontal-triple'
           size={18}
           color='#444'
           onPress={() => {
             console.log("click");
           }}
-        />
+        /> */}
       </div>
     </div>
   );

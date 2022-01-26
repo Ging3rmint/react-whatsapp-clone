@@ -10,7 +10,7 @@ const ContentFooter = () => {
       </div>
       <input type='text' placeholder='Type a message' />
       <div className='content-footer__right'>
-        <IconButton icon='mic' size={18} color='#444' />
+        <IconButton icon='paperplane' size={18} color='#444' />
       </div>
     </div>
   );

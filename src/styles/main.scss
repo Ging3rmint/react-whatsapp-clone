@@ -12,9 +12,13 @@
 @import "../components/molecules/content-header/ContentHeader.scss";
 @import "../components/molecules/content-footer/ContentFooter.scss";
 @import "../components/molecules/chat-bubble/ChatBubble.scss";
+@import "../components/molecules/input-field/InputField.scss";
+@import "../components/molecules/side-nav-button/SideNavButton.scss";
 
 //organisms
 @import "../components/organisms/side-nav/SideNav.scss";
+@import "../components/organisms/profile-side-drawer/ProfileSideDrawer.scss";
+@import "../components/organisms/contact-side-drawer/ContactSideDrawer.scss";
 @import "../components/organisms/dashboard-content/DashboardContent.scss";
 
 //screens

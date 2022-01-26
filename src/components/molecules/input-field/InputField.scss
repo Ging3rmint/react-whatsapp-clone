@@ -1,0 +1,31 @@
+.input-field {
+  background-color: white;
+  padding: 10px 15px;
+
+  > span {
+    color: #008069;
+    font-size: 14px;
+  }
+
+  &__wrapper {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+
+    &.active {
+      border-bottom: 2px solid #008069;
+    }
+
+    input {
+      border: none;
+      outline: none;
+    }
+
+    &--controls {
+      span {
+        color: rgba(0, 0, 0, 0.3);
+        font-size: 13px;
+      }
+    }
+  }
+}

@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?88nblg');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?88nblg#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?88nblg') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?88nblg') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?88nblg##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?4nm5x0');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?4nm5x0#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?4nm5x0') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?4nm5x0') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?4nm5x0##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,9 +27,44 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-paperplane {
+  &:before {
+    content: $icon-paperplane; 
+  }
+}
+.icon-chevron-right {
+  &:before {
+    content: $icon-chevron-right; 
+  }
+}
+.icon-chevron-left {
+  &:before {
+    content: $icon-chevron-left; 
+  }
+}
+.icon-chevron-down {
+  &:before {
+    content: $icon-chevron-down; 
+  }
+}
+.icon-chevron-up {
+  &:before {
+    content: $icon-chevron-up; 
+  }
+}
+.icon-people_alt {
+  &:before {
+    content: $icon-people_alt; 
+  }
+}
 .icon-message {
   &:before {
     content: $icon-message; 
+  }
+}
+.icon-checkmark {
+  &:before {
+    content: $icon-checkmark; 
   }
 }
 .icon-dots-horizontal-triple {
@@ -42,9 +77,24 @@
     content: $icon-search; 
   }
 }
+.icon-pencil {
+  &:before {
+    content: $icon-pencil; 
+  }
+}
+.icon-camera {
+  &:before {
+    content: $icon-camera; 
+  }
+}
 .icon-mic {
   &:before {
     content: $icon-mic; 
+  }
+}
+.icon-profile {
+  &:before {
+    content: $icon-profile; 
   }
 }
 .icon-attachment {
