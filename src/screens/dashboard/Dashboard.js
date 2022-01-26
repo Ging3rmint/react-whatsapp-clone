@@ -21,20 +21,22 @@ const Dashboard = () => {
   };
 
   return (
-    <div className='dashboard'>
-      <SideNav
-        onToggleProfileDrawerHandler={onToggleProfileDrawerHandler}
-        onToggleContactDrawerHandler={onToggleContactDrawerHandler}
-      />
-      <ProfileSideDrawer
-        isActive={profileDrawerActive}
-        onToggleDrawerHandler={onToggleProfileDrawerHandler}
-      />
-      <ContactSideDrawer
-        isActive={contactDrawerActive}
-        onToggleDrawerHandler={onToggleContactDrawerHandler}
-      />
-      <DashboardContent />
+    <div className='container'>
+      <div className='dashboard'>
+        <SideNav
+          onToggleProfileDrawerHandler={onToggleProfileDrawerHandler}
+          onToggleContactDrawerHandler={onToggleContactDrawerHandler}
+        />
+        <ProfileSideDrawer
+          isActive={profileDrawerActive}
+          onToggleDrawerHandler={onToggleProfileDrawerHandler}
+        />
+        <ContactSideDrawer
+          isActive={contactDrawerActive}
+          onToggleDrawerHandler={onToggleContactDrawerHandler}
+        />
+        <DashboardContent />
+      </div>
     </div>
   );
 };
